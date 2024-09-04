@@ -1,0 +1,167 @@
+*{
+    margin: 2px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: medium;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.header{
+    background-color: rgb(190, 241, 81);
+    margin:0px;
+    padding:0px;
+    text-align: center;
+}
+.presentacion{
+    font-size: small;
+    text-align: center;
+    color: white;
+    padding: 6px;
+}
+.cuotaDeBloque{
+    text-align: center;
+    text-decoration:dotted;
+    color:white;
+    
+}
+.titulos{
+    color:rgb(0, 0, 0);
+    margin: 10px 0px;
+    border-bottom: 2px solid black;
+}
+.parrafo1{
+    text-align: justify;
+    text-transform: capitalize;
+    text-decoration:underline;
+}
+.quote{
+    background-color: rgb(217, 215, 215);
+    margin: 10px 0px;
+    padding: 10px;
+    color: rgb(109, 107, 107);
+    font-style: oblique;
+    border-left: 5px solid rgb(135, 134, 134);
+}
+.span{
+    position: relative;
+}
+.box{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 7px 2px;
+}
+.segundaBox{
+    background-color: rgb(190, 241, 81);
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 7px 2px;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: white;
+    padding: 40px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 7px 16px -10px rgba(0,0,0,1);
+}
+.cajarelativa{
+    position: relative;
+    background-color:rgb(190, 241, 81);
+    padding: 10px;    
+    border-radius: 10px;
+}
+.cajaabsoluta{
+    position: absolute;
+    background-color: rgb(131, 241, 145);
+    padding: 10px;
+    border-radius: 10px;
+    right: 10px;
+    bottom: -40px;
+    width: 500px;
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.gridItem{
+    background-color:  rgb(190, 241, 81);
+    border-radius: 5px;
+    padding: 8px;
+    text-align: center;
+}
+.animacion{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 255, 38);
+}
+.animacion:hover{
+    background-color: rgb(252, 0, 42);
+    transition: .7s all;
+}
+.animacion:not(:hover){
+    transition: .7s all;
+}
+.mover{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color:rgb(0, 255, 38);
+    animation: 3s ease-in-out infinite movimientos;
+}
+
+.mover:hover{
+    background-color: rgb(252, 0, 42);
+    transition: .7s all;
+}
+.mover:not(:hover){
+    transition: .7s all;
+}
+@keyframes movimientos{
+    0%{transform: translateX(0px);}
+    50%{transform: translateX(200px);}
+    100%{transform: translateX(0px);}
+}
+@media screen and (max-width: 768px) {
+    body{
+        background-color: rgb(0, 0, 0);
+    }
+    .header{
+        background-color:rgb(62, 208, 172);
+    }
+    .segundaBox{
+        background-color: rgb(62, 208, 172);
+    }
+    .titulos{
+        font-size: larger;
+    }
+    .cajarelativa{
+        background-color: rgb(0, 174, 255);
+    }
+    .cajaabsoluta{
+        background-color: rgb(62, 208, 172);
+    }
+    .gridItem{
+        background-color: rgb(62, 208, 172);
+    }
+    .animacion{
+        background-color: red;
+    }
+    .animacion:hover{
+        background-color:rgb(0, 255, 38); 
+    }
+    .mover{
+        background-color: red;
+    }
+    .mover:hover{
+        background-color:rgb(0, 255, 38); 
+    }
+}
