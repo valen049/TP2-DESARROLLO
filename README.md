@@ -1,18 +1,15 @@
-# Trabajo Practico CSS Desarrollo de Software 
-Zalazar Valentín
+# 🖌️ Trabajo Práctico CSS - Desarrollo de Software
+Valentín Zalazar
 
-Pasos
+Este repositorio contiene el trabajo práctico de CSS, donde se exploran distintas propiedades y técnicas del diseño web utilizando Cascading Style Sheets (CSS). El objetivo de este proyecto es aplicar las principales características de CSS, como las propiedades de texto, caja, posicionamiento, grid, y animaciones, en un sitio web funcional y atractivo.
 
+🔧 Pasos para Ejecutar
+Navega al directorio del proyecto:[mirepositorio](https://github.com/valen049/TP2-DESARROLLO)
 
-1.Navega al directorio del proyecto:
-[mirepositorio](https://github.com/valen049/TP2-DESARROLLO)
+Abre el proyecto en Visual Studio Code.
 
+Utiliza la extensión Go Live para ver el sitio web localmente. Alternativamente, puedes acceder al sitio web en vivo a través del siguiente enlace:
 
-2.Abre el proyecto en Visual Studio Code.
-
-
-3.Utiliza la extensión Go Live para iniciar la página web localmente. Alternativamente, accede a la página en vivo a través de este enlace: 
- [Mi página web]( https://valen049.github.io/TP2-DESARROLLO/) 
 
 
 
