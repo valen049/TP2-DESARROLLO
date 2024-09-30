@@ -9,6 +9,7 @@ Navega al directorio del proyecto:[mirepositorio](https://github.com/valen049/TP
 Abre el proyecto en Visual Studio Code.
 
 Utiliza la extensión Go Live para ver el sitio web localmente. Alternativamente, puedes acceder al sitio web en vivo a través del siguiente enlace:
+[pagina web](https://valen049.github.io/TP2-DESARROLLO/)
 
 
 
